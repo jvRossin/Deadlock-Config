@@ -59,30 +59,57 @@
 
 Todos nós vivemos no bostil, por isso, pensando na maioria das pessoas que não possuem uma RTX 4080 em casa e nem um processador de última geração, fiz essa config para ajudar a todos a jogar melhor o game, tanto 4fun tanto para os Tryhards.
 
+Ela possuí 2 arquivos de modificação e alguns comandos para a inicialização do game. *Posso também se pedirem colocar algumas configurações a mais.*
+
+Mas fique tranquilo, que o tutorial de instalação esta dividido em 3 partes para melhor entendimento.
+
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
 <!-- GETTING STARTED -->
 ## Começando...
 
-Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você não tenha acesso ao game, você pode de forma TOTALMENTE GRATUITA adquirir o game no Discord do [Deadlock Brasil](https://discord.gg/J9EnU3UH2k). Dito isto, segue o passo a passo abaixo para instalação do Super Ultima Aumento de FPS!
+Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você não tenha acesso ao game, você pode de forma TOTALMENTE GRATUITA adquirir o game no Discord do [Deadlock Brasil](https://discord.gg/J9EnU3UH2k). Dito isto, basta seguir o passo a passo abaixo para instalação do Super Ultimate Aumento de FPS!
 
 ### Instalação
+#### Parte 1 : Autoexec
 
 1. Abra a Biblioteca da Steam e com o botão direito do mouse em cima do jogo, escolha `Gerenciar`>`Explorar Arquivos Locais`
-2. Clone the repo
+2. Entre nesse caminho `game\citadel\cfg`
+3. Agora basta jogar/copiar/puxar o arquivo [Autoexec.cfg]() para dentro dessa pasta e pronto.
+
+#### Parte 2 : Gameinfo
+
+1. Ainda dentro das pastas do game, basta voltar uma pasta `game\citadel`
+2. É SUPER recomendado você fazer uma copia desse arquivo por precaução
+3. Agora abra o arquivo `gameinfo.gi` no bloco de notas mesmo
+4. Dentro do arquivo, aperte no teclado `CTRL + F` e digite ConVars. Você vai ver algo assim
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   	ConVars
+	{	 
+		"rate"
+		{
+			"min"		"98304"
+			"default"	"786432"
+			"max"		"1000000"
+		}
+		"sv_minrate"	"98304"
+		"sv_maxunlag"	"0.500"
+		"sv_maxunlag_player" "0.200"
+		"sv_lagcomp_filterbyviewangle" "false"
+
+		// Spew warning when adding/removing classes to/from the top of the hierarchy
+		"panorama_classes_perf_warning_threshold_ms" "0.75"
    ```
-3. Install NPM packages
+5. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+6. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-5. Change git remote url to avoid accidental pushes to base project
+7. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
