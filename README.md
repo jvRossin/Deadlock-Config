@@ -113,7 +113,8 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 		}
 //--------------GAMEINFO CONFIG — STANN EDITION 2026 -------------
 // ------------------- Updated: 09.02.2026 --------------------
-   ```
+	```
+
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
