@@ -116,7 +116,8 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 #### Parte 3: Opções de Inicialização
 
 1. Agora pode fechar tudo, e lá na Steam, em cima do jogo, aperte o botão direito do mouse e vá em `Propriedades`
-2. Agora escolha quais comando deseja colocar
+2. Agora escolha quais comando deseja colocar:
+
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
