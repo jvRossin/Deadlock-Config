@@ -97,9 +97,6 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 		"sv_maxunlag"	"0.500"
 		"sv_maxunlag_player" "0.200"
 		"sv_lagcomp_filterbyviewangle" "false"
-
-		// Spew warning when adding/removing classes to/from the top of the hierarchy
-		"panorama_classes_perf_warning_threshold_ms" "0.75"
    ```
    
 5. Agora debaixo do segundo fecha chave `}`, cole o código do arquivo [GameInfo-Config.gi](). Vai ficar assim:
