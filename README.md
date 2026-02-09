@@ -83,7 +83,7 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 1. Ainda dentro das pastas do game, basta voltar uma pasta `game\citadel`
 2. É SUPER recomendado você fazer uma copia desse arquivo por precaução
 3. Agora abra o arquivo `gameinfo.gi` no bloco de notas mesmo
-4. Dentro do arquivo, aperte no teclado `CTRL + F` e digite ConVars. Você vai ver algo assim
+4. Dentro do arquivo, aperte no teclado `CTRL + F` e digite ConVars. Você vai ver algo assim:
    ```sh
    	ConVars
 	{	 
@@ -101,20 +101,19 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 		// Spew warning when adding/removing classes to/from the top of the hierarchy
 		"panorama_classes_perf_warning_threshold_ms" "0.75"
    ```
-5. Install NPM packages
+5. Agora debaixo do segundo fecha chave `}`, cole o código do arquivo [GameInfo-Config.gi](). Vai ficar assim:
    ```sh
-   npm install
+   	ConVars
+	{	 
+		"rate"
+		{
+			"min"		"98304"
+			"default"	"786432"
+			"max"		"1000000"
+		}
+//--------------GAMEINFO CONFIG — STANN EDITION 2026 -------------
+// ------------------- Updated: 09.02.2026 --------------------
    ```
-6. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-7. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
