@@ -16,7 +16,6 @@
   <p align="center">
     Super Ultimate Aumento de FPS!
     <br />
-    
     <a href="https://github.com/github_username/repo_name">Ver Demo</a>
     &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
@@ -72,6 +71,7 @@ Mas fique tranquilo, que o tutorial de instalação esta dividido em 3 partes pa
 Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você não tenha acesso ao game, você pode de forma TOTALMENTE GRATUITA adquirir o game no Discord do [Deadlock Brasil](https://discord.gg/J9EnU3UH2k). Dito isto, basta seguir o passo a passo abaixo para instalação do Super Ultimate Aumento de FPS!
 
 ### Instalação
+
 #### Parte 1 : Autoexec
 
 1. Abra a Biblioteca da Steam e com o botão direito do mouse em cima do jogo, escolha `Gerenciar`>`Explorar Arquivos Locais`
@@ -101,6 +101,7 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 		// Spew warning when adding/removing classes to/from the top of the hierarchy
 		"panorama_classes_perf_warning_threshold_ms" "0.75"
    ```
+   
 5. Agora debaixo do segundo fecha chave `}`, cole o código do arquivo [GameInfo-Config.gi](). Vai ficar assim:
    ```sh
    	ConVars
@@ -114,6 +115,11 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 		//--------------GAMEINFO CONFIG — STANN EDITION 2026 -------------
 		// ------------------- Updated: 09.02.2026 --------------------
 	```
+
+#### Parte 3: Opções de Inicialização
+
+1. Agora pode fechar tudo, e lá na Steam, em cima do jogo, aperte o botão direito do mouse e vá em `Propriedades`
+2. Agora escolha quais comando deseja colocar
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
