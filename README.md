@@ -14,13 +14,13 @@
 
 <h3 align="center">Stann's Config</h3>
   <p align="center">
-    Super Ultimate Aumento de FPS!
+    Super Ultimate Config Tryhard FPS Competitiva!
     <br />
-    <a href="https://github.com/github_username/repo_name">Ver Demo</a>
+    <a href="https://github.com/jvRossin/Deadlock-Config">Ver Demo</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
+    <a href="https://github.com/jvRossin/Deadlock-Config/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
     &middot;
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Pedir Alguma Feature</a>
+    <a href="https://github.com/jvRossin/Deadlock-Config/issues/new?labels=enhancement&template=feature-request---.md">Pedir Alguma Feature</a>
   </p>
 </div>
 
@@ -54,7 +54,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![product-screenshot]]
 
 Todos nós vivemos no bostil, por isso, pensando na maioria das pessoas que não possuem uma RTX 4080 em casa e nem um processador de última geração, fiz essa config para ajudar a todos a jogar melhor o game, tanto 4fun tanto para os Tryhards.
 
@@ -68,7 +68,7 @@ Mas fique tranquilo, que o tutorial de instalação esta dividido em 3 partes pa
 <!-- GETTING STARTED -->
 ## Começando...
 
-Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você não tenha acesso ao game, você pode de forma TOTALMENTE GRATUITA adquirir o game no Discord do [Deadlock Brasil](https://discord.gg/J9EnU3UH2k). Dito isto, basta seguir o passo a passo abaixo para instalação do Super Ultimate Aumento de FPS!
+Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você não tenha acesso ao game, você pode de forma TOTALMENTE GRATUITA adquirir o game no Discord do [Deadlock Brasil](https://discord.gg/J9EnU3UH2k). Dito isto, basta seguir o passo a passo abaixo para instalação da Super Ultimate Config Tryhard FPS Competitiva!
 
 ### Instalação
 
