@@ -78,7 +78,7 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 2. Entre nesse caminho `game\citadel\cfg`
 3. Agora basta jogar/copiar/puxar o arquivo [Autoexec.cfg]() para dentro dessa pasta e pronto.
 
-#### Parte 2 : Gameinfo
+#### Parte 2 : Game Info
 
 1. Ainda dentro das pastas do game, basta voltar uma pasta `game\citadel`
 2. É SUPER recomendado você fazer uma copia desse arquivo por precaução
@@ -117,17 +117,26 @@ Antes de tudo, é MUITO importante você estar com o jogo fechado. Caso você n�
 
 1. Agora pode fechar tudo, e lá na Steam, em cima do jogo, aperte o botão direito do mouse e vá em `Propriedades`
 2. Agora escolha quais comando deseja colocar:
-
+```
+-dx11 -high -preload -fullscreen +@panorama_min_comp_layer_cache_cost_TURNED_OFF 256 -exec autoexec.cfg
+```
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Bônus
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Aqui vão alguns bônus que você pode melhorar sua experiência dentro do game:
 
+### Adicionar a Barra de Vida Horizontal
+Basta colocar junto com os outros comandos na `Propriedades`
+```
++citadel_unit_status_use_new true
+```
+
+### 
 
 <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
 
